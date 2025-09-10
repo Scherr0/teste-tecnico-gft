@@ -25,4 +25,4 @@ Código da classe:
 
 .......
 
-Deste modo, os dados com que está-se trabalhando ficarão protegidos e será possível solicatar ajuda para a IA
+Deste modo, os dados em questão ficarão protegidos e será possível solicatar ajuda para a IA, aumentando a produtividade
