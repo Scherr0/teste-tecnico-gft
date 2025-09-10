@@ -17,10 +17,6 @@ public class Main {
             saldo = saldo + valor;
         }
 
-        String exibir() {
-            return "Saldo: " + saldo;
-        }
-
     }
 
     public static void main(String[] args) {
@@ -42,7 +38,11 @@ public class Main {
                 System.out.print("Digite o valor do saque/depósito, em reais: ");
                 valor = scanner.nextDouble();
                 if (comando == 1) {
-                    conta1.sacar(valor);
+                    if (valor > conta1.saldo) {
+                        System.out.println("Saldo insuficiente para saque!");
+                    } else {
+                        conta1.sacar(valor);
+                    }
                     repetirOperacao = false;
                 }  else if (comando == 2) {
                     conta1.depositar(valor);
