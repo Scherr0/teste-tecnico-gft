@@ -1,0 +1,1 @@
+## Repositório destinado ao teste técnico da GFT
