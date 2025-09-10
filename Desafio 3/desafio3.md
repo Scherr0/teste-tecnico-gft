@@ -6,9 +6,9 @@ alterando os valores dos atributos e variáveis para valores genéricos, como fe
 
 ==============================================================
 Estou desenvolvendo em Java e tenho a seguinte classe inicial:
+
 public class ApiService {
     private static final String API_TOKEN = "YOUR_TOKEN_HERE";
-    
         public void conectar() {
             // TODO: lógica para consumir API
         }

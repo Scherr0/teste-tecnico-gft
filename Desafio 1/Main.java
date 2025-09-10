@@ -1,5 +1,4 @@
 
-L
 public class Main {
 
     static class Contato {

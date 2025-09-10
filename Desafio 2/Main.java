@@ -56,6 +56,7 @@ public class Main {
             System.out.println("Saldo em conta: " + conta1.saldo + " reais");
             System.out.println();
 
+            // Pergunta se o usuário deseja realizar uma nova operação. Se não, encerra o programa
             System.out.println("Deseja realizar outra operação?\nSe sim, digite '1'\nSe não, digite '2'\nComando: ");
             comando = scanner.nextInt();
                 if (comando == 1) {
